@@ -38,18 +38,18 @@ export default function Home() {
           minPolarAngle={Math.PI * 0.48}
           maxPolarAngle={Math.PI * 0.55}
           // disable all mouse buttons
-          mouseButtons={{
-            left: 0,
-            middle: 0,
-            right: 0,
-            wheel: 0,
-          }}
-          // disable all touch gestures
-          touches={{
-            one: 0,
-            two: 0,
-            three: 0,
-          }}
+          // mouseButtons={{
+          //   left: 0,
+          //   middle: 0,
+          //   right: 0,
+          //   wheel: 0,
+          // }}
+          // // disable all touch gestures
+          // touches={{
+          //   one: 0,
+          //   two: 0,
+          //   three: 0,
+          // }}
         />
         <Preload all />
 
